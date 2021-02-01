@@ -6,6 +6,10 @@
 
 cat temp | grep Linux #grep is same as Ctrl+F
 
-wc -c < temp #count total chars in temp 
+count=`wc -c < temp` #count total chars in temp 
+
+count=$(wc -c < temp) #another way of doing same thing
+
+echo "Total characters in temp = $count"
 
 echo "Successfully Executed !"
