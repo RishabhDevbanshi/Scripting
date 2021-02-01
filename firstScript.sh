@@ -4,6 +4,7 @@
 
 function TestFunction()
 {
+	echo "Hello World"
 	echo "Inside function TestFunction"
 }
 
