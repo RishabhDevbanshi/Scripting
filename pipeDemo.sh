@@ -4,6 +4,8 @@
 
 #Pipe command is used to give output of one command as input of another command
 
-cat temp | grep Linux 
+cat temp | grep Linux #grep is same as Ctrl+F
 
-echo "Finish ...!"
+wc -c < temp #count total chars in temp 
+
+echo "Successfully Executed !"
